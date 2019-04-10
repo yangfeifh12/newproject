@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="//www.galigeigei.com/css/aa.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="//www.galigeigei.com/css/one.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/top.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css" />
+    <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+</head>
+<!-- 导航下列表 -->
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: #fff(82, 80, 80);
+    }
+
+    /*导航菜单*/
+    #nav {
+        width: 100%;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 40px;
+        background: url('images/nav-bg.png');
+        display: block;
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+
+    #navMenu {
+        margin-left: 32%;
+    }
+
+    #navMenu ul {
+        width: 950px;
+        /* float: left; */
+        height: 40px;
+    }
+
+    #navMenu li {
+        float: left;
+        font-size: 14px;
+        width: 100px;
+    }
+
+    #navMenu li a {
+        color: #000 !important;
+        text-decoration: none;
+        width: 91px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-image: url('images/navbg.png');
+        display: block;
+    }
+
+    #navMenu li a.last {
+        width: 92px;
+    }
+
+    #navMenu li a.current {
+        background-position: 0 -80px;
+        width: 91px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        display: block;
+        color: #fff;
+    }
+
+    #navMenu li a:hover {
+        background-position: 0 -40px;
+    }
+
+    /*-------- 下拉菜单 --------------*/
+    .dropMenu {
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        visibility: hidden;
+        margin-top: -2px;
+        border: 1px solid #0e2c5e;
+        border-top: 0;
+        background-color: #cbdef4;
+        padding: 4px;
+        width: 260px;
+    }
+
+    .dropMenu li {
+        float: left;
+        width: 130px;
+        height: 32px;
+    }
+
+    .dropMenu li a {
+        display: block;
+        padding: 5px 0 5px 12px;
+        color: #0f335d;
+    }
+
+    .dropMenu a:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+</style>
+
+<body>
+
+
+    <div class="body">
+        <div class="top-img">
+            <a href="#"><img src="./images/top.jpg" class="top-img"></a>
+        </div>
+        <!-- <div class="daohang">
+            <ul>
+                <li>
+                    <a href="//www.galigeigei.com">网站首页</a>
+                    <a href="#">艺考播音</a>
+                    <a href="#">艺考播音</a>
+                    <a href="#">艺考播音</a>
+                    <a href="#">艺考播音</a>
+                    <a href="#">艺考播音</a>
+                    <a href="#">艺考播音</a>
+                </li>
+            </ul>
+        </div> -->
+        <div>
+            <div id="nav">
+                <ul id="navMenu">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#" rel='dropmenu1'>人力资源</a></li>
+                    <li><a href="#" rel='dropmenu2'>新闻多媒体</a></li>
+                    <li><a class="current" href="#" rel='dropmenu3'>学琴教育</a></li>
+                    <li><a href="#" rel='dropmenu4'>汽车电子技术</a></li>
+                    <li><a class="last" href="#" rel='dropmenu5'>教师资格证</a></li>
+                </ul>
+            </div>
+
+            <script type='text/javascript' src='js/dropdown.js'></script>
+
+            <ul id="dropmenu1" class="dropMenu">
+                <li><a href="#">人力资源管理</a></li>
+                <li><a href="#">会计师</a></li>
+                <li><a href="#">小学教育</a></li>
+                <li><a href="#">网络工程</a></li>
+                <li><a href="#">汽车电子技术</a></li>
+                <li><a href="#">数字媒体</a></li>
+            </ul>
+            <ul id="dropmenu2" class="dropMenu">
+                <li><a href="#">工程造价</a></li>
+                <li><a href="#">应用英语</a></li>
+                <li><a href="#">应用英语</a></li>
+                <li><a href="#">应用英语</a></li>
+                <li><a href="#">应用英语</a></li>
+                <li><a href="#">应用英语</a></li>
+            </ul>
+            <ul id="dropmenu3" class="dropMenu">
+                <li><a href="#">应用英语</a></li>
+                <li><a href="#">应用英语</a></li>
+                <li><a href="#">应用英语</a></li>
+            </ul>
+            <ul id="dropmenu4" class="dropMenu">
+                <li><a href="#">教师资格证考试</a></li>
+                <li><a href="#">教师资格证考试</a></li>
+                <li><a href="#">教师资格证考试</a></li>
+            </ul>
+            <ul id="dropmenu5" class="dropMenu">
+                <li><a href="#">专业培训</a></li>
+                <li><a href="#">专业培训</a></li>
+            </ul>
+
+            <script type="text/javascript">cssdropdown.startchrome("navMenu")</script>
+
+
+        </div>
+
+        <div class="cb"></div>
+        <!-- <div class="body-left">
+            <ul class="body-left-ul">
+                {dede:arclist row="2" flag="h" typeid='15' titlelen="250"}
+                <li><a href="[field:arcurl /]" target="_blank">
+                        <h4>[field:title /]</h4>
+                    </a></li>
+                {/dede:arclist}
+                {dede:arclist row="10" typeid='15' titlelen="250"}
+                <li><a href="[field:arcurl /]" target="_blank">[field:title /]</a></li>
+
+                {/dede:arclist}
+            </ul>
+            <ul class="body-left-ul">
+                {dede:arclist row="2" flag="h" typeid='15' titlelen="250"}
+                <li><a href="[field:arcurl /]" target="_blank">
+                        <h4>[field:title /]</h4>
+                    </a></li>
+                {/dede:arclist}
+
+                {dede:arclist row="10" typeid='15' titlelen="250"}
+                <li><a href="[field:arcurl /]" target="_blank">[field:title /]</a></li>
+
+                {/dede:arclist}
+            </ul>
+            <ul class="body-right-ul">
+                {dede:arclist row="2" flag="a" titlelen="250"}
+                <li>
+                    <a href="[field:arcurl /]" style="margin-top:20px">
+                        <img src="[field:litpic /]"></a>
+                </li>
+                {/dede:arclist}
+            </ul>
+
+        </div> -->
+        <!-- 开始1 -->
+        <div class="top-body">
+            <div class="top-right">
+                <!-- <div class="t-img">
+                        <a href="#"><img src="./images/top.jpg"></a>
+                    </div>
+                    <div class="b-img">
+                        <a href="#"><img src="./images/top.jpg"></a>
+                    </div> -->
+                <ul>
+                    {dede:arclist row="2" flag="a" titlelen="250"}
+                    <li>
+                        <a href="#"><img src="[field:litpic /]"></a>
+                    </li>
+                    <!-- <li>
+                        <a href="#"><img src="[field:litpic /]"></a>
+                    </li> -->
+                    {/dede:arclist}
+                </ul>
+
+            </div>
+            <div class="top-left">
+                <ul>
+                    {dede:arclist row="8" flag="a" typeid='16' titlelen="250"}
+                    <li>
+                        <a href="[field:arcurl /]">[field:title /]</a>
+                    </li>
+                    {/dede:arclist}
+                </ul>
+                <ul>
+                    {dede:arclist row="8" flag="a" typeid='15' titlelen="250"}
+                    <li>
+                        <a href="[field:arcurl /]">[field:title /]</a>
+                    </li>
+                    {/dede:arclist}
+
+                </ul>
+                <div class="ul-b">
+                    {dede:arclist row="1" flag="a" titlelen="250"}
+                    <a href="#">
+                        <img src="[field:litpic /]">
+                    </a>
+                    {/dede:arclist}
+                </div>
+            </div>
+
+        </div>
+        <!-- 结束 -->
+        <!-- 开始2 -->
+        <div class="pg-top">
+            <div class="pg-main">
+
+                <div id="wrapper">
+                    <!--header end-->
+                    <div class="wrap">
+                        <div class="tabs">
+                            <span class="part active"><a href="#" hidefocus="true">全免费</a></span>
+                            <span class="part" style="border-right: 1px solid #ADDAFD"><a href="#"
+                                    hidefocus="true">优惠券</a></span>
+                            <span class="part"><a href="#" hidefocus="true">个人免费</a></span>
+                        </div>
+
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active">
+                                    <div class="content-slide">
+                                        <p>当泪干血隐狂涌白雪纷飞都成空</p>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content-slide">
+                                        <p>已经消失在风雨里</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content-slide">
+                                        <p>一场雨把我困在这里</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 结束2 -->
+        <script type="text/javascript" src="js/zepto.min.js"></script>
+        <script type="text/javascript" src="js/swiper/idangerous.swiper.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+
+                var tabsSwiper;
+                tabsSwiper = new Swiper('.swiper-container', {
+                    speed: 500,
+                    onSlideChangeStart: function () {
+                        $(".tabs .active").removeClass('active');
+                        $(".tabs span").eq(tabsSwiper.activeIndex).addClass('active');
+                    }
+                });
+
+                $(".tabs span").on('touchstart mousedown', function (e) {
+                    e.preventDefault()
+                    $(".tabs .active").removeClass('active');
+                    $(this).addClass('active');
+                    tabsSwiper.swipeTo($(this).index());
+
+                });
+
+                $(".tabs span").click(function (e) {
+                    e.preventDefault();
+                });
+
+
+            });//end
+        </script>
+
+    </div>
+    <div class="cb"></div>
+    <div class="page-foot">
+        <ul>
+            <li class="page-foot-li1"><a href="#">关于安居</a><a href="#">加入我们</a><a href="#">市场合作</a><a href="#">帮助中心</a><a
+                    href="#">联系我们</a></li>
+            <li>工厂地址：湖南省长沙市天心区长沙师范学院</li>
+            <li>工厂地址：湖南省长沙市天心区长沙师范学院，岳麓大道，长沙大道</li>
+        </ul>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.tabs {
+    height: 32px;
+    background: #5AA9F3;
+    width: 62%;
+    margin-top: 500px;
+    text-align: center;
+    margin-left: 313px;
+}
+
+.tabs .part {
+    display: block;
+    float: left;
+    width: 33%;
+    color: #fff;
+    text-align: center;
+    height: 20px;
+}
+
+.tabs .part:first-child {
+    border-right: 1px solid #ADDAFD;
+}
+
+.tabs a {
+    width: 70px;
+    display: block;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.tabs span.active a {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.swiper-container {
+    width: 100%;
+    border-top: 0;
+    margin-top: 10px !important
+}
+
+.swiper-slide {
+    width: 100%;
+    background: none;
+    color: #373737;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+
+.top-body{
+    width: 70%;
+    height: auto;
+
+}
+
+.top-right{
+    float: left;
+    margin-left: 300px;
+    width: 50%;
+    
+}
+.top-right img{
+    width: 67%;
+    height: 200px;
+}
+.top-right ul{
+    margin-left: 81px;
+}
+.top-right ul li{
+    margin-bottom: 10px;
+}
+.top-left ul{
+float: right;
+padding-left: 10px;
+}
+.ul-b{
+    float: right;
+    width: 20%;
+    margin-top: 46px;
+   
+}
+.ul-b img{
+    height: 200px;
+    /* width:50%; */
+    /* margin-top: -250px; */
+    margin-left: -50px;
+    width: 300px;
+}
+
+/* foot */
+.page-foot{
+    margin: 0 auto;
+    margin-top: 80px;
+    
+    text-align: center;
+}
+.page-foot-li1 a{
+    padding-right: 10px;
+   
+}
+.page-foot li a{
+    padding-right: 10px;
+    color: #000000;
+}
