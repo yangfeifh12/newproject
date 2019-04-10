@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta set="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="//www.galigeigei.com/css/aa.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="//www.galigeigei.com/css/many.css">
+    <script type="text/javascript" src="//www.galigeigei.com/js/jquery-3.3.1.min.js" rel="stylesheet"></script>
+    <script type="text/javascript" src="//www.galigeigei.com/js/main.js" rel="stylesheet"></script>
+    <script type="text/javascript" src="//www.galigeigei.com/js/tow.js" rel="stylesheet"></script>
+
+</head>
+
+<body>
+    <div class="all">
+        <div class="body">
+            <!-- 上部分 -->
+            <div class="top">
+                <div class="dingbu">
+                    <ul>
+                        <li><a href="#">欢迎来到这里</a><a>|</a><a href="#">0451-2859999</a></li>
+                        <li><a href="#">加入我们</a><a>|</a><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <!-- logo导航栏 -->
+                <div class="cb"></div>
+                <div class="logo">
+                    <div class="logo-1">
+                        <!-- logo -->
+                        <a href="#"><img src="[field:litpic /]" class="img"></a>
+                        <ul class="logo-tit">
+                            <li>
+                                <span><a href="#"
+                                        style="color:#2cd06d;font-weight: bolder;font-size: 20px;text-align: center;margin-left: 20px;">湖南惟盛教育</a></span>
+                            </li>
+                            <li> <a style="color:#2cd06d;font-weight: bolder;font-size: 10px"> Hunan Weisheng
+                                    Education</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="logo-2">
+                        <!-- 导航 -->
+                        <ul>
+                            <li>
+                                <span style="color:#2cd06d;font-weight: bolder;font-size: 15px">官方首页</span>
+                                <a href="#">课程体系</a>
+                                <a href="#">名师教学</a>
+                                <a href="#">新闻中心</a>
+                                <a href="#">学生评测</a>
+                                <a href="#">播音艺考</a>
+                                <a href="#">合作名校</a>
+                                <a href="#">证书查询</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--轮播图-->
+                <div class="mt20 ">
+                    <!--幻灯-->
+                    <div class="flash bk">
+                        <div class="focus">
+                            <div class="i">
+                                    {dede:list titlelen=250 infolen='260' pagesize="5"}
+                                <div class="item">
+                                    <a href="[field:arcurl/]" title="1" target="_blank"><img src="[field:litpic /]"></a>
+                                </div>
+                                {/dede:list}
+                            </div>
+                            <div class="btn"></div>
+                        </div>
+                    </div>
+                    <script>
+                        $('.focus .i .item').each(function () {
+                            $('.focus .btn').append('<a href="javascript:;" target="_self"></a>')
+                        });
+                        $('.focus .i').nTabs({
+                            button: '.focus .btn',
+                            prep: '.focus .np .p',
+                            next: '.focus .np .n',
+                            interval: 8000,
+                            easing: 'slideRight'
+                        });
+                        $('.hot1 .ct1 .pl1').nTabs({
+                            button: '.hot1 .nav1',
+                            interval: -8000,
+                            easing: '',
+                            clickChange: false
+                        });
+                        $('.hot2 .ct2 .pl2').nTabs({
+                            button: '.hot2 .nav2',
+                            interval: -8000,
+                            easing: '',
+                            clickChange: false
+                        });
+                        $('.hot3 .ct3 .pl3').nTabs({
+                            button: '.hot3 .nav3',
+                            interval: -8000,
+                            easing: '',
+                            clickChange: false
+                        });
+                        $('.hot4 .ct4 .pl4').nTabs({
+                            button: '.hot4 .nav4',
+                            interval: -8000,
+                            easing: '',
+                            clickChange: false
+                        });
+                        $('.hot5 .ct5 .pl5').nTabs({
+                            button: '.hot5 .nav5',
+                            interval: -8000,
+                            easing: '',
+                            clickChange: false
+                        });
+                    </script>
+
+
+                    <!--幻灯-->
+                </div>
+                <div class="cb"></div>
+                <!--轮播图end-->
+
+
+                <!-- 关于惟盛教育 -->
+                <div class="about-xin">
+                    <center>
+                        <h2 class="tilte" style="font-size: 25px;"><img src="[field:litpic /]"
+                                class="about-xin-img">关于惟盛教育</h2>
+                        <p>长沙惟盛教育是一家专注于教育的企业，竭尽全力为广大学子提供升学机会。长沙惟盛教育是一家专注于教育的企业，竭尽全力为广大学子提供升学机会。长沙惟盛教育是一家专注于教育的企业，竭尽全力为广大学子提供升学机会。长沙惟盛教育是一家专注于教育的企业，竭尽全力为广大学子提供升学机会。长沙惟盛教育是一家专注于教育的企业，竭尽全力为广大学子提供升学机会。长沙惟盛教育是一家专注于教育的企业，竭尽全力为广大学子提供升学机会。长沙惟盛教育是一家专注于教育的企业，竭尽全力为广大学子提供升学机会。
+                        </p>
+                        <div class="list">
+                            <ul class="list1" style="font-size:20px;font-weight:bolder">
+                                <li>
+                                    <a href="#">学院数量</a>
+                                    <a href="#">课程阶段</a>
+                                    <a href="#">专家教授</a>
+                                    <a href="#">学习课时</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </center>
+                </div>
+                <!-- 课程展示 -->
+                <div class="course">
+                    <center>
+                        <h2 class="tilte" style="font-size: 25px;"><img src="[field:litpic /]"
+                                class="about-xin-img">关于惟盛教育</h2>
+                        <p>惟盛教育拥有一流的团队</p>
+                    </center>
+                    <div class="course-class">
+                        <div class="course-1">
+                            {dede:list titlelen=250 infolen='260' pagesize="3"}
+                            <div class="a">
+                                <a href="#"><img src="[field:litpic /]"></a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <p>经典课程</p>
+                                    <p> 惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升</p>
+                                </li>
+                            </ul>
+                            {/dede:list}
+                        </div>
+
+                    </div>
+                    <!-- 下 -->
+                    <div class="cb"></div>
+                    <div class="course-class">
+                        <div class="course-1">
+                                {dede:list titlelen=250 infolen='260' pagesize="3"}
+                            <div class="a">
+                                <a href="#"><img src="[field:litpic /]"></a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <p>经典课程</p>
+                                    <p> 惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升</p>
+                                </li>
+                            </ul>
+                            {/dede:list}
+                        </div>
+
+                    </div>
+                </div>
+                <div class="cb"></div>
+                <!--标准体系输出 -->
+                <div class="tixi">
+                    <img src="[field:litpic /]" class="tixi-im1">
+                    <center>
+                        <h4 class="types-title">
+                            <span class="tilte1" style="font-size: 25px;font-weight: bolder">
+                                <img src="[field:litpic /]" class="tixi-em">
+                                <em>标</em>
+                                <em>准</em>
+                                <em>体</em>
+                                <em>系</em>
+                                <em>输</em>
+                                <em>出</em>
+                            </span>
+                        </h4>
+                        <p style="overflow: hidden;width: 559px;white-space: nowrap;margin-left: 86px">
+                            惟盛教育拥有一流的团队惟盛教育拥有一流的团队惟盛教育拥有一流的团队惟盛教育拥有一流的团队惟盛教育拥有一流的团队</p>
+                    </center>
+                    <div class="tixi-1">
+                        <center>
+                            <ul class="tixi-ul">
+                                <li><a href="#" style="color:#2cd06d;font-weight: bolder;font-size: 20px"><img
+                                            src="./images/g5.png" class="tixi-im">考试大纲</a>
+                                    <p class="tixi-p1">
+                                        惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升</p>
+                                </li>
+
+                                <li> <a href="#" style="color:#2cd06d;font-weight: bolder;font-size: 20px"><img
+                                            src="./images/g4.png" class="tixi-im">教学视频</a>
+
+                                    <p class="tixi-p1">
+                                        惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升</p>
+                                </li>
+                            </ul>
+                            <ul class="tixi-u2">
+                                <li><a href="#" style="color:#2cd06d;font-weight: bolder;font-size: 20px"><img
+                                            src="./images/g6.png" class="tixi-im">6阶教案</a>
+                                    <p class="tixi-p1">
+                                        惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升</p>
+                                </li>
+
+                                <li> <a href="#" style="color:#2cd06d;font-weight: bolder;font-size: 20px"><img
+                                            src="./images/222.png" class="tixi-im">范读录音</a>
+                                    <p class="tixi-p1">
+                                        惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升惟盛教育致力于学历提升</p>
+                                </li>
+                            </ul>
+                        </center>
+                    </div>
+                </div>
+                <!-- 简历推荐 -->
+                <div class="resume">
+                    <!-- 左 -->
+                    <div class="resume1">
+                        <div class="resume1-1">
+                            <ul>
+                                <h2>北大中传教授亲历推荐</h2>
+                                <p>指导授权：教育部升学教育委员会</p>
+                                <p>运营单位：长沙惟盛教育</p>
+                            </ul>
+                        </div>
+                        <div class="resume1-2">
+                            <img src="./images/2.gif">
+                        </div>
+                    </div>
+                    <!-- 右 -->
+                    <div class="resume2">
+                        <div class="resume2-1">
+                            <ul>
+                                <h2>北大中传教授亲历推荐</h2>
+                                <p>指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会指导授权：教育部升学教育委员会
+                                </p>
+                                <p>运营单位：长沙惟盛教育</p>
+                            </ul>
+                        </div>
+                        <div class="resume2-2">
+                            <img src="./images/2.gif">
+                        </div>
+                    </div>
+                </div>
+                <!-- 新闻动态选项卡 -->
+                <div class="cb"></div>
+                <div class="new">
+                    <div class="new-top">
+                        <h2 class="new-tit" style="font-size: 25px;"><img src="[field:litpic /]"
+                                class="new-about-xin-img">惟盛教育的新闻动态</h2>
+                        <p>惟盛教育的新闻动态,让您了解我们的最新动态。</p>
+                    </div>
+                    <div class="new-n">
+
+                        <!-- <div class="head">
+                            <ul>
+                                <li class="L1" onclick="Tab(1)"><a>教师新闻</a></li>
+                                <li class="L2" onclick="Tab(2)"><a>运营培训</a></li>
+                                <li class="L3" onclick="Tab(3)"><a>教学视频</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="head-div">
+                            <ul class="head-ul">
+                                <li>
+                                    <a href="#">查看更多>>></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d1" id="d1">
+                            <ul>
+
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href="#"><img src="./images/3.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排2019考试事项安排2019考试事项安排2019考试事项安排2019考试事项安排2019考试事项安排</p>
+                                        <a href="#"><img src="./images/3.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/3.gif"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="cb"></div>
+                            <ul>
+
+                                <li>
+                                    <div class="head-d1"> 
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/3.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/3.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/3.gif"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d2" id="d2">
+                            <ul>
+
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/1.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/1.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/1.gif"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="cb"></div>
+                            <ul>
+
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/2.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/2.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/2.gif"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d3" id="d3">
+                            <ul>
+
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/2.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/2.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href=""><img src="./images/2.gif"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="cb"></div>
+                            <ul>
+
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href="#"><img src="./images/4.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href="3"><img src="./images/4.gif"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="head-d1">
+                                        <p>2019.03.30</p>
+                                        <h1>考试事项安排</h1>
+                                        <p>2019考试事项安排</p>
+                                        <a href="#"><img src="./images/4.gif"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <div class="w390 mt10">
+                            <div id="tb_" class="tb_ red">
+                                <ul class="tb-ul">
+                                    <li id="tb_1" class="hovertab" onclick="HoverLi(1)">教师新闻</li>
+                                    <li id="tb_2" class="normaltab" onclick="HoverLi(2)">运营培训</li>
+                                    <li id="tb_3" class="normaltab" onclick="HoverLi(3)">教学视频</li>
+
+                                </ul>
+                                <ul class="tab-ul1">
+                                    <li>
+                                        <a href="#">查看更多>>></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ctt">
+                                <div class="dis" id="tbc_01">
+                                        {dede:list titlelen=250 infolen='260' pagesize="3"}
+                                    <ul>
+
+                                        <li>
+                                            <div>
+                                                <p>2019.04.01</p>
+                                                <p>这是一个选项卡</p>
+                                                <a href=""><img src="[field:litpic /]"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p>2019.04.01</p>
+                                                <p>这是一个选项卡</p>
+                                                <a href=""><img src="[field:litpic /]"></a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                    {/dede:list}
+                                </div>
+                                <div class="undis" id="tbc_02">
+                                        {dede:list titlelen=250 infolen='260' pagesize="3"}
+                                    <ul>
+
+                                        <li>
+                                            <div>
+                                                <p>2019.04.01</p>
+                                                <p>这是一个选项卡</p>
+                                                <a href=""><img src="[field:litpic /]"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p>2019.04.01</p>
+                                                <p>这是一个选项卡</p>
+                                                <a href=""><img src="[field:litpic /]"></a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                    {/dede:list}
+                                </div>
+                                <div class="undis" id="tbc_03">
+                                        {dede:list titlelen=250 infolen='260' pagesize="3"}
+                                    <ul>
+
+                                        <li>
+                                            <div>
+                                                <p>2019.05.01</p>
+                                                <p>这是一个选项卡</p>
+                                                <a href=""><img src="[field:litpic /]"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <p>2019.05.01</p>
+                                                <p>这是一个选项卡</p>
+                                                <a href=""><img src="[field:litpic /]"></a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                    {/dede:list}
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 名师团队 -->
+                <div class="cb"></div>
+                <div class="famous">
+                    <div class="famous-top">
+                        <h2 class="tilte" style="font-size: 25px;"><img src="[field:litpic /]"
+                                class="about-xin-img">名师图团队</h2>
+                        <p>惟盛教育拥有一流的团队</p>
+                    </div>
+                    <div class="famous-k"></div>
+                    <div class="famous-img">
+                            {dede:list titlelen=250 infolen='260' pagesize="3"}
+                        <ul class="famous-img1">
+                            <li>
+                                <img src="[field:litpic /]">
+                            </li>
+                            <li> <a href="#">名师主教</a></li>
+                        </ul>
+                        {/dede:list}
+
+                    </div>
+
+                </div>
+                <!-- 学生活动 -->
+                <div class="cb"></div>
+                <div class="student">
+                    <div class="student-top">
+                        <center>
+                            <h2 class="tilte" style="font-size: 25px;"><img src="[field:litpic /]"
+                                    class="about-xin-img">学生活动</h2>
+                            <p>惟盛教育拥有一流的团队</p>
+                        </center>
+                    </div>
+                    <div class="student-img">
+                        <div class="student-a">
+                            <a href="#"> <img src="[field:litpic /]"></a>
+                        </div>
+                        <div class="student-b">
+                            <span class="a">学生活动</span>
+                            <p>惟盛教育专注于学历提升惟盛教育专注于学历提升惟盛教育专注于学历提升惟盛教育专注于学历提升惟盛教育专注于学历提升惟盛教育专注于学历提升</p>
+                            <a href="#" style="padding-left:20px;">More>></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 免费预约 -->
+                <div class="cb"></div>
+                <div class="free">
+                    <div class="free-left">
+                        <img src="[field:litpic /]">
+                    </div>
+                    <div class="free-right">
+                        <p>专业1对1指导</p>
+                        <h1>免费试听课程预约</h1>
+                        <p>Free Course Reservation</p>
+                        <form action="#" method="POST" class="form">
+                            <fieldset>
+                                <legend>个人信息</legend>
+                                姓名：<input type="text" />
+                                电话:<input type="text" />
+                                <input type="submit" value="立即预约" title="立即预约" class="input" />
+                            </fieldset>
+
+                        </form>
+                    </div>
+                </div>
+                <!--底部 -->
+                <div class="foot">
+                    <!-- <div class="foot-left"></div>
+                <div class="foot-right"></div> -->
+                    <ul class="foot-logo">
+                        <li>
+                            <img src="[field:litpic /]">
+                        </li>
+                        <li class="foot-logo1">
+                            <span style="color:#2cd06d;font-weight: bolder;font-size: 20px">惟盛教育</span>
+                        </li>
+                    </ul>
+                    {dede:list titlelen=250 infolen='260' pagesize="3"}
+                    <ul>
+                        <li>
+
+                            <a class="r-button ai-element ai-element_padding-all ai-element4" href="#">
+                                <span class="ai-element__label">联系我们</span>
+                            </a>
+
+                        </li>
+                        <p>地址：长沙市星沙街道</p>
+                        <p>电话：000-00000000</p>
+                    </ul>
+                   {/dede:list}
+                    <!-- 二维码 -->
+                    <ul class="weixin">
+                        <li><img src="[field:litpic /]"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.body{
+    width: 100%;
+    height: auto;
+}
+.top-img{
+    width: 100%;
+    height: 470px;
+}
+
+.top-img img{
+    width: 100%;
+    height: 470px;
+}
+.daohang ul{
+    width: 100%;
+    
+}
+.daohang ul li{
+    list-style: none;
+}
+.daohang{
+    background-color: blue;
+    height: 36px;
+    padding-top: 10px;
+    padding-left: 450px;
+}
+.daohang ul li a{
+    padding-left: 100px;
+    height: 100px;
+}
+
+/* 首页样式 */
+.all{
+    width: 1000px;
+    /* height: 600px; */
+    background-color:#d4d4d4d4;
+    margin: 0 auto; 
+}
+.head{
+    font-size: 31px;
+    height: 62px;
+    padding-left: 45px;
+    padding-top: 13px;
+}
+
+.body-left{
+    float: left;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-left: 600px;
+    
+}
+.body-center{
+   padding-top:1px;
+   padding-left: 250px;
+}
+.body-right{
+    float: right;
+    margin-top:-330px; 
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.body-left-ul{
+    float: left;
+    width: 240px;
+    margin-right: 20px;
+}
+.body-right-ul{
+    float: right;
+    width: 240px;
+}
+.body-right-ul img{
+    width: 240px;
+    height: 110px;
+}
+ol, li, ul { margin: 0; padding: 4px; }
+.body-right ul li{
+    padding-top: 20px;
+}
+
+.page-foot{
+    margin: 0 auto;
+    margin-top: 80px;
+    
+    text-align: center;
+}
+.page-foot-li1 a{
+    padding-right: 10px;
+   
+}
+.page-foot li a{
+    padding-right: 10px;
+    color: #000000;
+}
+
+
+
+.body ul li{
+    list-style-type: none;
+}
+.body ul li a{
+    list-style-type: none;
+    text-decoration: none;  
+}
+/*.body-left-ul{
+    font-size: 20px;
+}*/
+
+
+.body-left ul li{ 
+  margin: 0 auto;
+  list-style-type: none;
+}
+.body-left li a{ 
+    /* margin: 0 5px 0 5px; */
+    text-decoration: none;
+      
+  }
+  ul.test li a{
+    display: inline-block;font-size: 15px;
+    }
+.test a:hover{background-color:#ff0000; border:1px solid #000;}
+/* 首页样式end */
